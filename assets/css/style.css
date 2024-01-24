@@ -111,14 +111,13 @@ body {
     transition: all 0.5s;
 }
 
-.btn--big::after {
+.btn--big::after{
     content: attr(data-type);
+    font-size: 1rem;
     color: #445361;
     position: relative;
-    font-size: 0.7rem;
-        left: -0.2rem;
+    left: -0.5em;
 }
-
 
 .btn--blue {
     border-color: blue;
